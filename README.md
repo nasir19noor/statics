@@ -1,0 +1,1 @@
+## Statics website collections
