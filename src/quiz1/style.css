@@ -52,6 +52,7 @@ body {
 	background: url('background.jpg') no-repeat;
 	backgroundsize: cover;
 	background-position: center;
+	pointer-events: auto;
 	transition: .3s ease;
 }
 
