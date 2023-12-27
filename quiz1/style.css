@@ -57,7 +57,7 @@ body {
 
 .main.active {
 	filter: blur(15px);
-	
+	pointer-events: none;
 }
 
 .home {
