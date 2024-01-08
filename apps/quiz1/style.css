@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900$display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900$display=swap');
 
 * {
 	margin: 0;
@@ -51,7 +51,7 @@ body {
 .main {
 	min-height: 100vh;
 	background: url('background.jpg') no-repeat;
-	backgroundsize: cover;
+	background-size : cover;
 	background-position: center;
 	pointer-events: auto;
 	transition: .3s ease;
@@ -235,4 +235,22 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 0;
+	border-bottom: 2px solid #c40094;
+}
+
+.quiz-header span {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.quiz-header .header-score {
+	background: #c40094;
+	border-radius: 3px;
+	padding: 7px;
+}
+
+.quiz-box .question-text {
+	font-size: 24px;
+	font-weight: 600;
+
 }
