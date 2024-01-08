@@ -217,4 +217,8 @@ body {
 	width: 500px;
 	background: transparent;
 	border: 2px solid #c40094;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 30px;
 }
