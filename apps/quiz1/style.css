@@ -199,7 +199,10 @@ body {
 	/*left: -50%; */
 	left: 0;
 	width: 100%;
-	background: seagreen;
+	background: #09001d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	transition: .8s ease-in-out;
 	transition-delay: .25s;
 	z-index: 100;
@@ -207,4 +210,11 @@ body {
 
 .quiz-section.active {
 	left: 0;
+}
+
+.quiz-section .quiz-box {
+	padding: relative;
+	width: 500px;
+	background: transparent;
+	border: 2px solid #c40094;
 }
