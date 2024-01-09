@@ -290,4 +290,13 @@ body {
 	border-radius: 6px;
 	font-size: 16px;
 	color: rgba(255, 255, 255, .1);
+	font-weight: 600;
+	cursor: pointer;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.quiz-footer .next-btn:hover  {
+	background: #950170;
+	background-color: #950170;;
 }
