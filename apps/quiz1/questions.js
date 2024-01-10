@@ -34,18 +34,24 @@ Let questions = [
     },
     {
         numb: 4,
-        question: "",
-        answer: "",
+        question: "What does SQL stand for?",
+        answer: "D. Structured Query Language",
         options: [
-            
+            "A. Strength Query Language",
+            "B. Stylesheet Query Language",
+            "C. Science Question Language",
+            "D. Structured Query Language"
         ]
     },
     {
         numb: 5,
-        question: "",
-        answer: "",
+        question: "What does XML stand for?",
+        answer: "D. Extensible Markup Language",
         options: [
-            
+            "A. Excellent Multiple Language",
+            "B. Explore Multiple Language",
+            "C. Extra Markup Language",
+            "D. Extensible Markup Language"
         ]
     }
 ];

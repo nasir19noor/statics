@@ -196,8 +196,8 @@ body {
 
 .quiz-section {
 	position: relative;
-	/*left: -50%; */
-	left: 0;
+	left: -50%; */
+	/* left: 0; */
 	width: 100%;
 	background: #09001d;
 	display: flex;
@@ -221,6 +221,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 20px 30px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.quiz-section .quiz-box.active {
+
 }
 
 .quiz-section h1 {
