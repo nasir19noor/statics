@@ -230,6 +230,8 @@ body {
 	opacity: 1;
 	pointer-events: auto;
 	transform: scale(1);
+	transition: 1s ease;
+	transition-delay: 1s;
 }
 
 .quiz-section h1 {
