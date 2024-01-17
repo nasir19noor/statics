@@ -21,11 +21,14 @@ continueBtn.onclick = () => {
 	popupInfo.classList.remove('active');
 	main.classList.remove('active');
 	quizBox.classList.add('active');
+
+	showQuestions(0);
 }
 
 Let questionCount = 0;
 
 //getting questions and options from array
-function showQuestions {
-	const questionText = document.querySelector('.');
+function showQuestions(index) {
+	const questionText = document.querySelector('.question-text');
+	questionText.textContent = `${questions[index].numb}. ${questions[index].question}`;
 }
